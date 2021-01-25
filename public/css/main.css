@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    
+    max-width: 760px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex; align-items: center; justify-content: flex-start;
+}
+.leafs { display: flex; align-items: center; justify-content: flex-start; } 
+.container { width: 100px; height: auto; display: flex; align-items: center; justify-content: flex-start; } 
+.leaf1{ height: 20px; width: 50px; background: #1A4341; border-top-left-radius: 100px; border-bottom-right-radius: 100px; } 
+.leaf2{ height: 20px; width: 50px; background: #998235; border-top-left-radius: 100px; border-bottom-right-radius: 100px; margin-left: -20px; margin-right: -20px } 
+.leaf3{ height: 20px; width: 50px; background: #F3AC3C; border-top-left-radius: 100px; border-bottom-right-radius: 100px; } 
+
+nav {
+    background: #0B2429;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav > .logo > h2 {
+    color: #F3AC3C;
+}
+
+nav > ul {
+    display: flex; align-items: center;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li > a,
+a {
+    text-decoration:  none;
+    color: #998235;
+    padding: 8px 16px;
+    border: solid #F3AC3C;
+    border-radius: 100px;
+}
+nav > ul > li > a:hover {
+    color: #F3AC3C;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
